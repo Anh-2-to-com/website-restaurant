@@ -20,4 +20,6 @@ public class SiteProvider : BaseProvider
     public InvoiceRepository Invoice => invoice ?? new InvoiceRepository(Connection);
     InvoiceDetailRepository? invoiceDetail;
     public InvoiceDetailRepository InvoiceDetail => invoiceDetail ?? new InvoiceDetailRepository(Connection);
+    ContactRepository? contact;
+    public ContactRepository Contact => contact ?? new ContactRepository(Connection);
 }

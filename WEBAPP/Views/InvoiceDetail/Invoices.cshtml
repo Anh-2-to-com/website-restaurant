@@ -23,6 +23,17 @@
                             <p class="card-subtitle mb-2 text-muted">CustomerID: @item.Id_KH - TableID: @item.Id_Ban</p>
                             <p class="card-text">Invoice Date: @item.NgayHD.ToString("dd/MM/yyyy")</p>
                             <p class="card-text">Amount: @item.TongTien.ToString("#,###0")</p>
+                            <p class="card-text">
+                                @{  
+                                    if (item.InvoiceDetails != null)
+                                    {
+                                        foreach (var detail in item.InvoiceDetails)
+                                        {
+                                        <p class="card-text">FoodID: @detail.Id_MonAn - Quantity: @detail.SoLuong - Price: @detail.DonGia</p>
+                                        }
+                                    }
+                                }
+                            </p>
                         </div>
                     </div>
                 </div>

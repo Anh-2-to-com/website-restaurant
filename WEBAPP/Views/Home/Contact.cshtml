@@ -1,3 +1,7 @@
+@model Contact
+
+<partial name="_Msg" />
+
 <!-- Hero Start -->
 <div class="container-fluid bg-light py-6 my-6 mt-0">
     <div class="container text-center animated bounceInDown">
@@ -20,14 +24,12 @@
             <h1 class="display-5 mb-0">Contact Us For Any Queries!</h1>
         </div>
         <div class="col-md-6 col-lg-7">
-            <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax
-                & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a
-                    href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-            <form>
-                <input type="text" class="w-100 form-control p-3 mb-4 border-primary bg-light" placeholder="Your Name">
-                <input type="email" class="w-100 form-control p-3 mb-4 border-primary bg-light"
+            <form method="post">
+                <input asp-for="Subject" type="text" class="w-100 form-control p-3 mb-4 border-primary bg-light"
+                    placeholder="Your Name">
+                <input asp-for="Email" type="email" class="w-100 form-control p-3 mb-4 border-primary bg-light"
                     placeholder="Enter Your Email">
-                <textarea class="w-100 form-control mb-4 p-3 border-primary bg-light" rows="4" cols="10"
+                <textarea asp-for="Body" class="w-100 form-control mb-4 p-3 border-primary bg-light" rows="4" cols="10"
                     placeholder="Your Message"></textarea>
                 <button class="w-100 btn btn-primary form-control p-3 border-primary bg-primary rounded-pill"
                     type="submit">Submit Now</button>

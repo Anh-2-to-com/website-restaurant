@@ -22,10 +22,16 @@ public class InvoiceDetailController : BaseController
     }
     public IActionResult PayCost(int id)
     {
-        foreach (var detail in Helper.Details)
+        ResultCart obj = Helper.Details[0];
+        Helper.Invoices.Add(Provider.Invoice.GetInvoiceByTableId(obj.Id_Ban));
+        for (int i = 1; i < Helper.Details.Count; ++i)
         {
-            Helper.Invoices.Add(Provider.Invoice.GetInvoiceByTableId(detail.Id_Ban));
+            if (obj.Id_Ban.Equals(Helper.Details[i].Id_Ban))
+                continue;
+            obj = Helper.Details[i];
+            Helper.Invoices.Add(Provider.Invoice.GetInvoiceByTableId(Helper.Details[i].Id_Ban));
         }
+        //Helper.Invoices.Add(Provider.Invoice.GetInvoiceByTableId(detail.Id_Ban));
         int ret = Provider.InvoiceDetail.PayCost(id.ToString());
         if (ret > 0)
         {
@@ -41,6 +47,7 @@ public class InvoiceDetailController : BaseController
     }
     public IActionResult Invoices()
     {
+        ViewData["Title"] = "AITILO";
         IEnumerable<Invoice> invoices = Helper.Invoices.OrderBy(p => p.Id_HoaDon);
         foreach (var item in invoices)
         {
