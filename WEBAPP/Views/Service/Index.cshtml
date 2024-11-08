@@ -1,0 +1,84 @@
+@model IEnumerable<Floor>
+
+<partial name="_Msg" />
+
+<!-- Hero Start -->
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">Services</h1>
+        <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-dark" aria-current="page">Services</li>
+        </ol>
+    </div>
+</div>
+<!-- Hero End -->
+
+<!-- Service Start -->
+<div class="container-fluid service menu py-6">
+    <div class="container">
+        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+            <small
+                class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our
+                Services</small>
+            <h1 class="display-5 mb-5">Book The Table</h1>
+        </div>
+        <div class="row g-4">
+            <div class="tab-class text-center">
+                <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp"
+                    data-wow-delay="0.1s">
+                    @foreach (var item in Model)
+                    {
+                        <li val="@item.FloorName" class="nav-item p-2 floor">
+                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill"
+                                href="#tab-6">
+                                <span class="text-dark" style="width: 150px;">@item.FloorName</span>
+                            </a>
+                        </li>
+                    }
+                </ul>
+                <form id="myForm" action="/service/booktable" method="post">
+                    <input type="hidden" name="Id_Ban" id="Id_Ban" value="" />
+                    <div class="tab-content">
+                        <div id="tab-6" class="tab-pane fade show p-0 active">
+                            <div id="tablefloor" class="row g-4">
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+<script>
+    $('.floor').click(function () {
+        let v = $(this).attr('val');
+        //console.log(v);
+        $.post('/service/gettablesbyfloor', { 'floor': v }, (d) => {
+            console.log(d);
+            $(tablefloor).empty();
+            for (let i in d) {
+                $(tablefloor).append(`<div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                                <div class="bg-light rounded service-item">
+                                    <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                        <div class="service-content-icon text-center">
+                                            <i class="fas fa-chair fa-7x text-primary mb-4"></i>
+                                            <h4 class="mb-3">${d[i]['tenBan']}</h4>
+                                            <button class="btn btn-primary px-4 py-2 rounded-pill" onclick="updateHiddenInputs('${d[i]['iD_Ban']}')">${d[i]['trangThai']}</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>`);
+            }
+        });
+    });
+
+    function updateHiddenInputs(idBan) {
+        $('#Id_Ban').val(idBan);
+        $('#myForm').submit();
+    }
+</script>

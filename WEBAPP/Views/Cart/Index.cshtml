@@ -1,0 +1,109 @@
+@model IEnumerable<ResultCart>
+
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">Cart</h1>
+        <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-dark" aria-current="page">Cart</li>
+        </ol>
+    </div>
+</div>
+
+<div class="container-fluid menu bg-light py-6 my-6">
+    <div class="container">
+        <table class="table table-bordered">
+            <thead class="table-primary text-center">
+                <tr>
+                    <th></th>
+                    <th>Name Food</th>
+                    <th>Image</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Amount</th>
+                    <th>Table Book</th>
+                    <th>Command</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr val="@item.Id_MonAn" amount="@item.ThanhTien">
+                        <td>
+                            <input class="form-check-input chkSelected" @(item.IsChecked ? "checked" : "") type="checkbox"
+                                value="@item.Id_MonAn">
+                        </td>
+                        <td class="text-start">@item.TenMon</td>
+                        <td class="d-flex justify-content-center align-items-center">
+                            <img width="100" class="rounded img-fluid shadow-sm" src="/images/Food/@item.Loai/@item.HinhAnh"
+                                alt="@item.TenMon">
+                        </td>
+                        <td class="text-end">
+                            <input class="form-control chkQuantity" type="number" min="1" max="10" value="@item.SoLuong">
+                        </td>
+                        <td class="text-end">@item.DonGia.ToString("#,###")</td>
+                        <td class="text-end">@item.ThanhTien.ToString("#,###")</td>
+                        <td class="text-center">
+                            <select class="form-select">
+                                @foreach (var table in ViewBag.TableBooks)
+                                {
+                                    <option value="@table.Id_Ban">@table.TenBan</option>
+                                }
+                            </select>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success btnApproved" href="javascript:void(0)">Approved</a>
+                            <a class="btn btn-outline-danger btnDel" href="/cart/delete/@item.Id_MonAn">Delete</a>
+                            <a class="btn btn-outline-info" href="/food">Back to menu</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot class="table-primary">
+                <tr>
+                    <td class="text-center" colspan="7"><b>Total</b></td>
+                    <td class="text-end">@Model.Where(p => p.IsChecked).ToList().Sum(p =>
+                        p.ThanhTien).ToString("#,###0")
+                        VNĐ</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+<script>
+    $('.btnApproved').click(function () {
+        let $row = $(this).closest('tr');
+        let tid = $(this).closest('tr').find('.form-select').val();
+        let fid = $(this).closest('tr').attr('val');
+        console.log(`${tid} - ${fid}`);
+        if (tid) {
+            window.location.href = `/cart/approved?id_ban=${tid}& id_monan=${fid}`;
+            // $.post('/cart/approved', { 'id_ban': tid, 'id_monan': fid }, (d) => {
+            //   console.log(d);
+            //   window.location.reload();
+            //   }); *
+        }
+    });
+
+    $('.chkQuantity').change(function () {
+        let fid = $(this).closest('tr').attr('val');
+        let v = $(this).val();
+        $.post('/cart/updatequantity', { 'foodid': fid, 'quantity': v }, (d) => {
+            //console.log(d);
+            window.location.reload();
+        })
+    });
+    $('.chkSelected').click(function () {
+        let v = $(this).val();
+        //console.log(v);
+        $.post('/cart/updateselected', { 'foodid': v }, (d) => {
+            console.log(d);
+            window.location.reload();
+        });
+    });
+    $('.btnDel').click(function () {
+        return confirm('Are you sure delete?');
+    });
+</script>

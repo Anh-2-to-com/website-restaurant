@@ -1,0 +1,71 @@
+@model Customer
+
+<partial name="_Msg" />
+
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">Information</h1>
+        <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-dark" aria-current="page">Information</li>
+        </ol>
+    </div>
+</div>
+
+<div asp-validation-summary="All"></div>
+<form enctype="multipart/form-data" action="/customer/add" method="post">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4">
+                @if (@ViewBag.Cust.HinhAnh is null)
+                {
+                    <img src="/img/profile-img.jpg" class="img-fluid" alt="">
+                }
+                else
+                {
+                    <input type="hidden" name="HinhAnh" value="@ViewBag.Cust.HinhAnh" />
+                    <img src="/images/User/@ViewBag.Cust.HinhAnh" class="img-fluid" alt="Image">
+                }
+                <input class="mt-2 form-control" type="file" name="f" accept="image/*">
+            </div>
+            <div class="col-lg-8 content">
+                <h2>Thanks. Welcome To Us</h2>
+                <p class="fst-italic py-3">
+                    Thank you for visiting our restaurant! We would now like to gather a little bit of information about
+                    you.
+                </p>
+
+                <div class="row">
+                    <div class="row mb-3">
+                        <label class="col-3" asp-for="TenKH">Your Name:</label>
+                        <div class="col-9">
+                            <input class="form-control" type="text" asp-for="TenKH" value="@ViewBag.Cust.TenKH">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-3" asp-for="NgaySinh">Date Of Birth:</label>
+                        <div class="col-9">
+                            <input class="form-control" type="date" asp-for="NgaySinh"
+                                value="@ViewBag.Cust.NgaySinh.ToString("yyyy-MM-dd")">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-3" asp-for="SDT">Phone:</label>
+                        <div class="col-9">
+                            <input class="form-control" type="text" asp-for="SDT" value="@ViewBag.Cust.SDT">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-3" asp-for="DiaChi">Address:</label>
+                        <div class="col-9">
+                            <input class="form-control" type="text" asp-for="DiaChi" value="@ViewBag.Cust.DiaChi">
+                        </div>
+                    </div>
+                </div>
+                <button class="offset-6 btn btn-primary">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</form>

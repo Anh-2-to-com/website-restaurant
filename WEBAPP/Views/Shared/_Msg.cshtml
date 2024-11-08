@@ -1,0 +1,21 @@
+@if (TempData["Msg"] != null)
+{
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast bg-warning text-white" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Message</strong>
+                <small>1 sec ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                <b>
+                    @TempData["Msg"]
+                </b>
+            </div>
+        </div>
+    </div>
+    <script>
+        new bootstrap.Toast('#liveToast').show();
+    </script>
+}

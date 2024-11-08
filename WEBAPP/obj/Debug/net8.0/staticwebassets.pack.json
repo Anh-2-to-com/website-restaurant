@@ -1,0 +1,637 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aquarius\\75.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aquarius\\75.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aquarius\\76.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aquarius\\76.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aquarius\\77.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aquarius\\77.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aquarius\\78.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aquarius\\78.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aquarius\\79.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aquarius\\79.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aquarius\\80.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aquarius\\80.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aquarius\\81.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aquarius\\81.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aquarius\\82.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aquarius\\82.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aquarius\\83.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aquarius\\83.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\10.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\11.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\12.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\2.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\3.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\4.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\5.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\6.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\7.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\8.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Aries\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Aries\\9.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Cancer\\29.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Cancer\\29.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Cancer\\30.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Cancer\\30.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Cancer\\31.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Cancer\\31.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Cancer\\32.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Cancer\\32.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Cancer\\33.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Cancer\\33.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Cancer\\34.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Cancer\\34.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\63.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\63.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\64.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\64.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\65.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\65.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\66.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\66.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\67.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\67.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\68.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\68.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\69.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\69.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\70.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\70.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\71.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\71.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\72.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\72.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\73.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\73.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Capricorn\\74.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Capricorn\\74.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Gemini\\22.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Gemini\\22.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Gemini\\23.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Gemini\\23.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Gemini\\24.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Gemini\\24.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Gemini\\25.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Gemini\\25.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Gemini\\26.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Gemini\\26.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Gemini\\27.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Gemini\\27.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Gemini\\28.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Gemini\\28.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Leo\\35.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Leo\\35.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Leo\\36.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Leo\\36.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Leo\\37.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Leo\\37.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Leo\\38.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Leo\\38.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Leo\\39.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Leo\\39.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Leo\\40.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Leo\\40.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Libra\\47.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Libra\\47.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Libra\\48.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Libra\\48.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Libra\\49.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Libra\\49.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Libra\\50.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Libra\\50.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Libra\\51.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Libra\\51.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Libra\\52.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Libra\\52.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Pisces\\84.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Pisces\\84.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Pisces\\85.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Pisces\\85.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Pisces\\86.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Pisces\\86.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Pisces\\87.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Pisces\\87.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Pisces\\88.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Pisces\\88.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Pisces\\89.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Pisces\\89.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Sagittarius\\57.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Sagittarius\\57.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Sagittarius\\58.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Sagittarius\\58.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Sagittarius\\59.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Sagittarius\\59.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Sagittarius\\60.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Sagittarius\\60.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Sagittarius\\61.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Sagittarius\\61.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Sagittarius\\62.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Sagittarius\\62.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Scorpio\\53.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Scorpio\\53.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Scorpio\\54.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Scorpio\\54.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Scorpio\\55.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Scorpio\\55.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Scorpio\\56.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Scorpio\\56.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Taurus\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Taurus\\13.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Taurus\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Taurus\\14.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Taurus\\15.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Taurus\\15.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Taurus\\16.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Taurus\\16.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Taurus\\17.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Taurus\\17.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Taurus\\18.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Taurus\\18.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Taurus\\19.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Taurus\\19.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Taurus\\20.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Taurus\\20.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Taurus\\21.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Taurus\\21.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Unknown\\unknown.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Unknown\\unknown.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Virgo\\41.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Virgo\\41.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Virgo\\42.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Virgo\\42.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Virgo\\43.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Virgo\\43.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Virgo\\44.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Virgo\\44.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Virgo\\45.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Virgo\\45.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Food\\Virgo\\46.jpg",
+      "PackagePath": "staticwebassets\\images\\Food\\Virgo\\46.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\User\\024863fmh3i3bmbhuqyrrlix2x9g.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\024863fmh3i3bmbhuqyrrlix2x9g.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\User\\qx4fmdsl561a2e938gijco63y8ar.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\qx4fmdsl561a2e938gijco63y8ar.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\User\\ycvmk97ofsq6d9o1f3hjg0fcm4m9.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\ycvmk97ofsq6d9o1f3hjg0fcm4m9.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\User\\yihtkwaw97m5om204m2coij1fb4y.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\yihtkwaw97m5om204m2coij1fb4y.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Voucher\\100off.jpg",
+      "PackagePath": "staticwebassets\\images\\Voucher\\100off.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Voucher\\20off.jpg",
+      "PackagePath": "staticwebassets\\images\\Voucher\\20off.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Voucher\\30off.jpg",
+      "PackagePath": "staticwebassets\\images\\Voucher\\30off.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Voucher\\50off.jpg",
+      "PackagePath": "staticwebassets\\images\\Voucher\\50off.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\images\\Voucher\\60off.jpg",
+      "PackagePath": "staticwebassets\\images\\Voucher\\60off.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\background-site.jpg",
+      "PackagePath": "staticwebassets\\img\\background-site.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\event-1.jpg",
+      "PackagePath": "staticwebassets\\img\\event-1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\event-2.jpg",
+      "PackagePath": "staticwebassets\\img\\event-2.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\event-3.jpg",
+      "PackagePath": "staticwebassets\\img\\event-3.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\event-4.jpg",
+      "PackagePath": "staticwebassets\\img\\event-4.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\event-5.jpg",
+      "PackagePath": "staticwebassets\\img\\event-5.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\event-6.jpg",
+      "PackagePath": "staticwebassets\\img\\event-6.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\event-7.jpg",
+      "PackagePath": "staticwebassets\\img\\event-7.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\event-8.jpg",
+      "PackagePath": "staticwebassets\\img\\event-8.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\fact.jpg",
+      "PackagePath": "staticwebassets\\img\\fact.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\hero.png",
+      "PackagePath": "staticwebassets\\img\\hero.png"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\menu-01.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-01.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\menu-02.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-02.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\menu-03.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-03.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\menu-04.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-04.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\menu-05.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-05.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\menu-06.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-06.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\menu-07.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-07.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\menu-08.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-08.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\menu-09.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-09.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\menu-10.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-10.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\profile-img.jpg",
+      "PackagePath": "staticwebassets\\img\\profile-img.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\lightbox\\images\\close.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\lightbox\\images\\next.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\lightbox\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WEBAPP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WEBAPP.props",
+      "PackagePath": "build\\WEBAPP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WEBAPP.props",
+      "PackagePath": "buildMultiTargeting\\WEBAPP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WEBAPP.props",
+      "PackagePath": "buildTransitive\\WEBAPP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

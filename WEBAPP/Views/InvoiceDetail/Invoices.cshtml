@@ -1,0 +1,32 @@
+@model IEnumerable<Invoice>
+
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">Invoice</h1>
+        <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-dark" aria-current="page">Invoice</li>
+        </ol>
+    </div>
+</div>
+
+<div class="container-fluid menu bg-light py-6 my-6">
+    <div class="container">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header"><span class="card-title">InvoiceID: @item.Id_HoaDon</span></div>
+                        <div class="card-body">
+                            <p class="card-subtitle mb-2 text-muted">CustomerID: @item.Id_KH - TableID: @item.Id_Ban</p>
+                            <p class="card-text">Invoice Date: @item.NgayHD.ToString("dd/MM/yyyy")</p>
+                            <p class="card-text">Amount: @item.TongTien.ToString("#,###0")</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

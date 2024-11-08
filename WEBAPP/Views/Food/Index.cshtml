@@ -1,0 +1,96 @@
+@model IEnumerable<TypeFood>
+
+<partial name="_Msg" />
+
+<!-- Hero Start -->
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">Menu</h1>
+        <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-dark" aria-current="page">Menu</li>
+        </ol>
+    </div>
+</div>
+<!-- Hero End -->
+
+<div class="container-fluid menu bg-light py-6 my-6">
+    <div class="container">
+        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+            <small
+                class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our
+                Menu</small>
+            <h1 class="display-5 mb-5">Most Popular Food in the World</h1>
+        </div>
+        <div class="tab-class text-center">
+            <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
+                @foreach (var item in Model)
+                {
+                    <li val="@item.TypeFoodName" class="nav-item p-2 typefood">
+                        <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill"
+                            href="#tab-6">
+                            <span class="text-dark" style="width: 150px;">@item.TypeFoodName</span>
+                        </a>
+                    </li>
+                }
+            </ul>
+            <form id="myForm" action="/cart/add" method="post">
+                <input type="hidden" name="productid" id="productid" value="" />
+                <input type="hidden" name="quantity" id="quantity" value="" />
+                <input type="hidden" name="typefood" id="typefood" value="" />
+                <div class="tab-content">
+                    <div id="tab-6" class="tab-pane fade show p-0 active">
+                        <div id="menufood" class="row g-4">
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    // Định dạng số theo kiểu "#.###,00"
+    function formatNumber(value) {
+        return new Intl.NumberFormat('de-DE', { minimumFractionDigits: 0, maximumFractionDigits: 2 }).format(value);
+    }
+
+    $('.typefood').click(function () {
+        let v = $(this).attr('val');
+        $.post('/food/getfoodsbytypefood', { 'typefood': v }, (d) => {
+            //console.log(d);
+            $(menufood).empty();
+            for (let i in d) {
+                $(menufood).append(`
+                            <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.1s">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img width=150 class="flex-shrink-0 img-fluid rounded-circle" src="/images/Food/${v}/${d[i]['hinhAnh']}" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>${d[i]['tenMon']}</h4>
+                                            <h4 class="text-primary">${formatNumber(d[i]['donGia'])} VNĐ</h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <input class="form-control" type="number" name="quantity" value="1" min="1" max="10"/>
+                                            </div>
+                                            <div class="col">
+                                                <button type="submit" class="btn btn-outline-primary" onclick="hiddenInput('${d[i]['iD_MonAn']}','${v}', this)">Order</button>
+                                            </div >
+                                        </div >
+                                    </div >
+                                </div >
+                            </div >`);
+            }
+        });
+    });
+
+    function hiddenInput(productid, typefood, buttonElement) {
+        const quantity = $(buttonElement).closest('.menu-item').find('input[name="quantity"]').val();
+        $('#productid').val(productid);
+        $('#quantity').val(quantity);
+        $('#typefood').val(typefood);
+        $('#myForm').submit();
+    }
+</script>

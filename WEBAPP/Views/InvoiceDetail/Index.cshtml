@@ -1,0 +1,87 @@
+@using System.Security.Claims
+@model IEnumerable<ResultCart>
+
+<div class="container-fluid bg-light py-6 my-6 mt-0">
+    <div class="container text-center animated bounceInDown">
+        <h1 class="display-1 mb-4">Invoice Detail</h1>
+        <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-dark" aria-current="page">InvoiceDetail</li>
+        </ol>
+    </div>
+</div>
+
+<div class="container-fluid menu bg-light py-6 my-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <table class="table table-bordered">
+                    <thead class="table-primary text-center">
+                        <tr>
+                            <th>TableID</th>
+                            <th>Name Food</th>
+                            <th>Image</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="text-end">@item.Id_Ban</td>
+                                <td class="text-start">@item.TenMon</td>
+                                <td class="d-flex justify-content-center align-items-center">
+                                    <img width="100" class="rounded img-fluid shadow-sm"
+                                        src="/images/Food/@item.Loai/@item.HinhAnh" alt="@item.TenMon">
+                                </td>
+                                <td class="text-end">
+                                    @item.SoLuong
+                                </td>
+                                <td class="text-end">@item.DonGia.ToString("#,###")</td>
+                                <td class="text-end">@item.ThanhTien.ToString("#,###")</td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot class="table-primary">
+                        <tr>
+                            <td class="text-center" colspan="5"><b>Total</b></td>
+                            <td class="text-end">@ViewBag.Total.ToString("#,###") VNĐ</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">CustomerID: @ViewBag.Customer.ID_KH</div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-subtitle mb-2 text-muted">Full Name: @ViewBag.Customer.TenKH</p>
+                        <p class="card-text">Email: @User.FindFirstValue(ClaimTypes.Email)</p>
+                        <p class="card-text">Date Of Birth: @ViewBag.Customer.NgaySinh.ToString("dd/MM/yyyy")</p>
+                        <p class="card-text">Phone: @ViewBag.Customer.SDT</p>
+                        <p class="card-text">Address: @ViewBag.Customer.DiaChi</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <a id="payCost" href="javascript:void(0)" class="btn btn-primary mt-2">Pay with Cost</a>
+                    <a class="btn btn-primary mt-2">Pay with VNPay</a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="/cart" class="btn btn-outline-primary mt-2">Back to
+                        Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(payCost).click(function () {
+        let cusid = @ViewBag.Customer.ID_KH;
+        window.location.href = `/invoicedetail/paycost/${cusid}`;
+    });
+</script>
