@@ -35,8 +35,8 @@ Xây dựng hệ thống Quản lý Nhà Hàng một cách chuyên nghi�
 <br>
 <h4>Yêu cầu</h4>
 AI: Dự đoán doanh thu <br>
-Web: Spring MVC <br>
-Ngôn ngữ: Java core <br>
+Web: ASP.Net Core <br>
+Ngôn ngữ: C# <br>
 Framework: Bootstrap <br>
 Nghiệp vụ: <br>
 <table>
