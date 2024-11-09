@@ -1,4 +1,6 @@
 
+using WebApp.Models;
+
 namespace WEBAPP.Models;
 
 public class SiteProvider : BaseProvider
@@ -22,4 +24,6 @@ public class SiteProvider : BaseProvider
     public InvoiceDetailRepository InvoiceDetail => invoiceDetail ?? new InvoiceDetailRepository(Connection);
     ContactRepository? contact;
     public ContactRepository Contact => contact ?? new ContactRepository(Connection);
+    VNPaymentRepository? vNPayment;
+    public VNPaymentRepository VNPayment => vNPayment ?? new VNPaymentRepository(Connection);
 }
