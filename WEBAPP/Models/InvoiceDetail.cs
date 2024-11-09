@@ -10,6 +10,6 @@ public class InvoiceDetail
     public string Id_MonAn { get; set; } = null!;
     [BindProperty(Name = "SOLUONG")]
     public int SoLuong { get; set; }
-    [BindProperty(Name = "THANHTIEN")]
-    public decimal ThanhTien { get; set; }
+    [BindProperty(Name = "DONGIA")]
+    public decimal DonGia { get; set; }
 }

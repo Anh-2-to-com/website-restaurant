@@ -65,3 +65,16 @@ C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\obj\Debug\net8.0\refint\WEBAPP.dll
 C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\obj\Debug\net8.0\WEBAPP.pdb
 C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\obj\Debug\net8.0\WEBAPP.genruntimeconfig.cache
 C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\obj\Debug\net8.0\ref\WEBAPP.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\obj\Debug\net8.0\WEBAPP.sourcelink.json
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Study\phat-trien-pm-ud\WEBAPPSTORE\WEBAPP\obj\Debug\net8.0\WEBAPP.MvcApplicationPartsAssemblyInfo.cs
