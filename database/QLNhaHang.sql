@@ -199,6 +199,21 @@ CREATE TABLE Contact(
 	Body NTEXT
 );
 GO
+-- SELECT * FROM VnPayment
+CREATE TABLE VnPayment (
+    Amount BIGINT NOT NULL,
+    BankCode NVARCHAR(128) NOT NULL,
+    BankTranNo NVARCHAR(128) NOT NULL,
+    CardType NVARCHAR(128) NOT NULL,
+    OrderInfo NVARCHAR(128) NOT NULL,
+    PayDate NVARCHAR(128) NOT NULL,
+    ResponseCode NVARCHAR(128) NOT NULL,
+    TmnCode NVARCHAR(128) NOT NULL,
+    TransactionNo NVARCHAR(128) NOT NULL,
+    TransactionStatus NVARCHAR(128) NOT NULL,
+    TxnRef NVARCHAR(128) NOT NULL
+);
+GO
 
 ------------------------------------Khóa Ngoại-------------------------------------
 ------------Khoa ngoai NHANVIEN
@@ -729,8 +744,8 @@ BEGIN
 END
 GO
 -- Thanh toan bang tien mat
--- DROP PROC PayCost
-CREATE PROC PayCost(
+-- DROP PROC Payment
+CREATE PROC Payment(
 	@ID_KH VARCHAR(16)
 )
 AS
@@ -745,9 +760,11 @@ DELETE GIOHANG
 UPDATE BAN SET TRANGTHAI = 'Con trong'
 DELETE CTHD
 DELETE HOADON
+DELETE VnPayment
 
 SELECT * FROM GioHang
 SELECT * FROM BAN
+SELECT * FROM VnPayment
 SELECT * FROM HOADON
 SELECT * FROM CTHD
 SELECT * FROM KHACHHANG
@@ -755,5 +772,3 @@ SELECT * FROM MONAN
 SELECT * FROM NGUOIDUNG
 
 SELECT * FROM HOADON WHERE ID_BAN = 101 AND TRANGTHAI = 'Chua thanh toan'
-
-SELECT * FROM CTHD WHERE ID_HOADON = 5596760

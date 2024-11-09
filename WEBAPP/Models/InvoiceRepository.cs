@@ -8,6 +8,7 @@ public class InvoiceRepository : BaseRepository
     public InvoiceRepository(IDbConnection connection) : base(connection)
     {
     }
+    public int VnPay(string invoiceid) => connection.Execute("UPDATE HOADON SET TRANGTHAI = 'Da thanh toan' WHERE ID_HOADON = @Id", new { @Id = invoiceid });
     public Invoice? GetInvoiceByTableId(string tableid) => connection.QuerySingleOrDefault<Invoice>("SELECT * FROM HOADON WHERE ID_BAN = @Id_Ban AND TRANGTHAI = 'Chua thanh toan'", new { @Id_Ban = tableid });
     public IEnumerable<ResultTableBook> GetTablesByCustomerId(string customerid)
     {

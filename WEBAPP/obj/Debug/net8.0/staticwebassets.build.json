@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O60DyilvjJSZoC7gLTU3dsCayYghf7eZSNdkpxIEhgw=",
+  "Hash": "1wj5UUTDtL/sVNGYJwX5uAAU1nsWrEbviCdI+T9bo6A=",
   "Source": "WEBAPP",
   "BasePath": "_content/WEBAPP",
   "Mode": "Default",
@@ -1972,6 +1972,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\about.jpg"
+    },
+    {
+      "Identity": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\avatar-1.jpg",
+      "SourceId": "WEBAPP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\",
+      "BasePath": "_content/WEBAPP",
+      "RelativePath": "img/avatar-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\avatar-1.jpg"
     },
     {
       "Identity": "C:\\Study\\phat-trien-pm-ud\\WEBAPPSTORE\\WEBAPP\\wwwroot\\img\\background-site.jpg",
