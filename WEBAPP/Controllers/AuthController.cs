@@ -45,9 +45,12 @@ public class AuthController : BaseController
                     IsPersistent = obj.Remember,
                     RedirectUri = "auth/error404"
                 });
+
                 TempData["Msg"] = "Login Success";
+                if (account.VaiTro.Equals("Quan Ly"))
+                    return Redirect("/dashboard");
+                return Redirect("/customer");
             }
-            return Redirect("/customer");
         }
         TempData["Msg"] = "Login Failed";
         return View(obj);

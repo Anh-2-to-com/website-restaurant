@@ -26,4 +26,6 @@ public class SiteProvider : BaseProvider
     public ContactRepository Contact => contact ?? new ContactRepository(Connection);
     VNPaymentRepository? vNPayment;
     public VNPaymentRepository VNPayment => vNPayment ?? new VNPaymentRepository(Connection);
+    StatisticRepository? statistic;
+    public StatisticRepository Statistic => statistic ?? new StatisticRepository(Connection);
 }
