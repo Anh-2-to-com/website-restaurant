@@ -23,5 +23,6 @@ var app = builder.Build();
 
 app.UseStaticFiles();
 app.MapDefaultControllerRoute();
+app.MapControllerRoute(name: "dashboard", pattern: "{area:exists}/{controller=home}/{action=index}/{id?}");
 
 app.Run();
